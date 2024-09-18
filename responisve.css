@@ -1,0 +1,441 @@
+/****************************************/
+/* Nav link */
+/****************************************/
+/* Hide the nav-links on small screens */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none; /* Hide by default */
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    width: 100%;
+    background-color: #f1f5f9;
+    padding: 1.5rem;
+  }
+
+  .nav-links.active {
+    display: flex; /* Show when active */
+  }
+
+  .nav-links li {
+    padding: 0 1rem;
+    text-align: left;
+  }
+}
+/****************************************/
+/* 1200 */
+/****************************************/
+@media (max-width: 1200px) {
+  .container {
+    max-width: 100rem;
+    padding: 0 1.5rem;
+  }
+
+  .Hero-description-top {
+    font-size: 2.5rem;
+  }
+  .Hero-description {
+    font-size: 2.5rem;
+  }
+  .Aboutme-container {
+    gap: 3rem; /* Optional: Adds space between grid items */
+    height: auto; /* Full height container */
+    padding-bottom: 15rem;
+  }
+  .skills-container {
+    gap: 1rem;
+  }
+  .left-col2 {
+    padding: 3rem 1rem;
+    row-gap: 3rem;
+  }
+  .left-col2 ol {
+    line-height: 2.2rem;
+  }
+  .center-col2 {
+    padding: 3rem 1rem;
+  }
+  .center-col2 p {
+    line-height: 2.2rem;
+  }
+  .right-col2 {
+    padding: 3rem 1rem;
+  }
+  .right-col2 ol {
+    line-height: 2.2rem;
+  }
+  .Hero3 p {
+    max-width: 90rem;
+    line-height: 2.6rem;
+  }
+}
+/****************************************/
+/* 992*/
+/****************************************/
+@media (max-width: 992px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 90rem;
+    padding: 0 1rem;
+  }
+  .nav-links {
+    gap: 1rem;
+  }
+  .button {
+    padding: 0.7rem 2rem;
+
+    font-size: 1.6rem;
+  }
+  .nav-links .button {
+    display: inline-block;
+    width: 13rem;
+  }
+  .Hero-description-top {
+    font-size: 2.1rem;
+  }
+  .Primary-heading {
+    padding-top: 2rem;
+    font-size: 4.3rem;
+  }
+  .Hero-description {
+    font-size: 2.1rem;
+  }
+  .left-col2 h3 {
+    font-size: 2.5rem;
+  }
+  .left-col2 ol {
+    font-size: 1.8rem;
+  }
+  .center-col2 p {
+    font-size: 1.8rem;
+  }
+  .center-col2 h3 {
+    font-size: 2.5rem;
+  }
+  .right-col2 ol {
+    font-size: 1.8rem;
+  }
+
+  .right-col2 h3 {
+    font-size: 2.5rem;
+  }
+  /**portfolio**/
+  iframe {
+    width: 800px;
+    height: 470px;
+  }
+  p.Hero2 {
+    letter-spacing: 0.4rem;
+  }
+  /**contact**/
+  .contact-container {
+    gap: 1.5rem; /* Optional: Adds space between grid items */
+    height: 100vh; /* Full height container */
+  }
+  .left-col3 {
+    padding: 1rem;
+  }
+  .center-col3 {
+    padding: 1rem;
+  }
+  .right-col3 {
+    padding: 1rem;
+  }
+  .left-col3 h3 {
+    font-size: 2.3rem;
+  }
+  .center-col3 h3 {
+    font-size: 2.3rem;
+  }
+  .right-col3 h3 {
+    font-size: 2.3rem;
+  }
+}
+/****************************************/
+/* 768 */
+/****************************************/
+@media (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 70rem;
+    padding: 0 1rem;
+  }
+  .Hero-description-top {
+    font-size: 2rem;
+  }
+  .Primary-heading {
+    padding-top: 2rem;
+    font-size: 3.2rem;
+  }
+  .third-heading {
+    font-size: 2.28rem;
+  }
+  .Hero-description {
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: -0.1rem;
+  }
+  .right-box {
+    justify-content: right;
+  }
+  .left-col h3 {
+    font-size: 2.3rem;
+  }
+  .left-col ol {
+    font-size: 1.8rem;
+  }
+  .center-col h3 {
+    font-size: 2.3rem;
+  }
+  .center-col p {
+    font-size: 1.8rem;
+  }
+  .right-col h3 {
+    font-size: 2.3rem;
+  }
+  .right-col ol {
+    font-size: 1.8rem;
+  }
+  /**skills**/
+  .left-col2 {
+    padding: 1.5rem 1rem;
+    row-gap: 1rem;
+  }
+  .left-col2 h3 {
+    font-size: 2.3rem;
+  }
+  .left-col2 ol {
+    font-size: 1.6rem;
+    row-gap: 1rem;
+  }
+  .center-col2 {
+    padding: 1.5rem 1rem;
+    row-gap: 1rem;
+  }
+  .center-col2 h3 {
+    font-size: 2.3rem;
+  }
+  .center-col2 p {
+    font-size: 1.6rem;
+    row-gap: 1rem;
+  }
+  .right-col2 {
+    padding: 1.5rem 1rem;
+    row-gap: 1rem;
+  }
+  .right-col2 h3 {
+    font-size: 2.3rem;
+  }
+  .right-col2 ol {
+    font-size: 1.6rem;
+    row-gap: 1rem;
+  }
+  .right-col2 h2 {
+    display: none;
+  }
+  /**portfolio**/
+  iframe {
+    width: 650px;
+    height: 370px;
+  }
+  p.Hero2 {
+    letter-spacing: 0.1rem;
+  }
+  .video-gallery {
+    gap: 2rem; /* Adds spacing between video items */
+    max-width: 70rem; /* Adjust this for the overall gallery width */
+    margin: 0 auto; /* Center the gallery */
+  }
+  /**contact**/
+  .left-col3 h3 {
+    font-size: 2rem;
+  }
+  .center-col3 h3 {
+    font-size: 2rem;
+  }
+  .right-col3 h3 {
+    font-size: 2rem;
+  }
+  .sm-icons img {
+    height: 2rem;
+  }
+}
+/****************************************/
+/* 576 */
+/****************************************/
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+  .nav-links .button {
+    display: inline-block;
+    width: 25rem;
+  }
+  .nav-links li {
+    text-align: center;
+  }
+
+  .hero-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    height: auto;
+    align-content: center;
+    margin-bottom: 15rem;
+  }
+  .left-box {
+    order: 2;
+  }
+  .right-box {
+    justify-content: center;
+    order: 1;
+  }
+  .hero-img {
+    max-height: 40vh;
+    object-fit: contain;
+  }
+  .Hero-description-top {
+    text-align: center;
+    font-size: 2.1rem;
+  }
+  .Primary-heading {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 4rem;
+  }
+  .third-heading {
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 2.28rem;
+  }
+  .Hero-description {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 5rem;
+  }
+  .button-align {
+    text-align: center;
+  }
+  .button {
+    font-size: 2rem;
+    padding: 1.5rem 6rem;
+  }
+  /**About Me**/
+  .Aboutme-container {
+    max-width: 130rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    gap: 3rem; /* Optional: Adds space between grid items */
+    height: auto; /* Full height container */
+  }
+  .Hero2 h2 {
+    margin-bottom: 2rem;
+  }
+  .left-col {
+    row-gap: 2rem;
+    order: 3;
+  }
+  .center-col {
+    row-gap: 2rem;
+    order: 1;
+  }
+  .center-col a {
+    display: none;
+    margin-top: 1rem;
+  }
+  .right-col {
+    order: 2;
+    row-gap: 2rem;
+  }
+  /**skills**/
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1.5rem; /* Optional: Adds space between grid items */
+    height: auto; /* Full height container */
+  }
+  /**portfolio**/
+  iframe {
+    width: 500px;
+    height: 300px;
+  }
+  p.Hero2 {
+    letter-spacing: -0.12rem;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    gap: 1rem;
+  }
+  .video-gallery {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(300px, 1fr)
+    ); /* Creates a 3-column grid */
+    gap: 2rem; /* Adds spacing between video items */
+    max-width: 100%; /* Adjust this for the overall gallery width */
+    margin: 0 auto; /* Center the gallery */
+  }
+  .video-item {
+    width: auto;
+    height: auto;
+    padding-bottom: 56.25%; /* Aspect ratio of 16:9 */
+    position: relative;
+  }
+  /**contact**/
+  .contact-container {
+    margin: 0 auto;
+    padding: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem; /* Optional: Adds space between grid items */
+    height: auto; /* Full height container */
+  }
+  .button {
+    background-color: #dc2626;
+    padding: 0.7rem 2rem;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #f1f5f9;
+    white-space: nowrap;
+    display: inline-block;
+    margin: 0 auto;
+  }
+}
+/****************************************/
+/* 412 */
+/****************************************/
+@media (max-width: 412px) {
+  /**portfolio**/
+  p.Hero2 {
+    font-size: 1.6rem;
+  }
+  iframe {
+    width: 350px;
+    height: 200px;
+  }
+  /*footer Section*/
+  .footer-text {
+    font-size: 1.2rem;
+  }
+}
